@@ -10,8 +10,6 @@ import javax.sql.DataSource;
 
 import com.shard.dto.ShardMemberVO;
 
-import oracle.jdbc.proxy.annotation.Pre;
-
 public class ShardMemberDAO {
 	private static ShardMemberDAO instance = new ShardMemberDAO();
 	
@@ -74,6 +72,7 @@ public class ShardMemberDAO {
 		return 0;
 	}
 	
+	// userId 값을 넘겨서 select구문을 통해 userId에 맞는 모든 데이터 출력
 	public ShardMemberVO getMember(String userId) {
 		ShardMemberVO vo = null;
 		String sql = "select * from shardmember where userId = ?";
@@ -114,6 +113,7 @@ public class ShardMemberDAO {
 		return vo;
 	}
 	
+	// ajax를 통해 DB에 있는 userId를 검사해서 데이터베이스에 일치하는 아이디가 있는지 검사
 	public int idCheck(String userid) {
 		int result = -1;
 		
