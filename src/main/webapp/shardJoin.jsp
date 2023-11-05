@@ -23,7 +23,8 @@
 			<h2>회원정보 입력</h2>
 
 			<div class="join_box">
-				<form action="join.do" method="post" id="joinForm">
+				<form action="ShardServlet" method="post" id="joinForm">
+					<input type="hidden" name="command" value="join"/>
 					<ul>
 						<li>
 							<label for="name">이름</label> 
@@ -296,14 +297,14 @@
 						<th scope="col"><div>목적</div></th>
 						<th scope="col"><div>항복</div></th>
 						<th scope="col"><div>보유기간</div></th>
-						<th scope="col"><div>동의 <input type="checkbox" name="all_agree" id="all_agree" checked/></div></th>
+						<th scope="col"><div>동의 <input type="checkbox" name="all_agree" class="all_agree" checked/></div></th>
 					</tr>
 					<tr>
 						<th scope="row" rowspan="1"><div>필수정보</div></th>
 						<td><div>회원제 서비스 이용 / 본인확인</div></td>
 						<td><div>이름, 아이디, 비밀번호, 이메일, 휴대 전화, 생년월일</div></td>
 						<td><div style="font-weight:bold">회원 탈퇴 후 즉시</div></td>
-						<td rowspan="1"><div><input type="checkbox" name="all_agree2" id="all_agree2" checked/></div></td>
+						<td rowspan="1"><div><input type="checkbox" name="all_agree" class="all_agree" checked/></div></td>
 					</tr>
 				</table>
 				<h2 style="margin-top:10px; color:#666; font-size:12px; font-weight:normal;">* 서비스 제공을 위한 최소한의 개인정보이므로 동의를 해주셔야 서비스를 이용하실 수 있습니다.</h2>

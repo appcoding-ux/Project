@@ -7,11 +7,11 @@
 	<div class="topRightNav">
 		<ul>
 			<%
-                String username = (String)request.getAttribute("userName");
-                if (username != null) {
+                ShardMemberVO user = (ShardMemberVO)session.getAttribute("user");
+                if (user != null) {
                 %>
-			<li><span style="font-size:14px; color:#333; font-weight:400;"><%= username %> 님</span></li>
-			<li><a href="userLogout.do">로그아웃</a></li>
+			<li><span style="font-size:14px; color:#333; font-weight:400;"><%= user.getUserName() %> 님</span></li>
+			<li><a href="ShardServlet?command=logout">로그아웃</a></li>
 			<%
                 } else {
                 %>

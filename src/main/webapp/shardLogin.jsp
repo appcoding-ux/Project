@@ -19,23 +19,18 @@
 	crossorigin="anonymous"></script>
 <script>
 	Kakao.init('a532ecf4ec0ea79cf0bf444a8eb18a44'); // 사용하려는 앱의 JavaScript 키 입력
+	
+	var result = ${result};
+	if(result == -1){
+		alert("아이디 또는 비밀번호가 맞지 않습니다.");
+	}
 </script>
 </head>
 <body>
 	<jsp:include page="header.jsp"></jsp:include>
 
 	<!-- 회원가입을 성공적으로 마쳤을 때 login페이지로 이동하면서 환영한다는 경고창을 띄우고 로그인을 할 수 있게 한다. -->
-	<script type="text/javascript">
-    var joinMessage = <%= request.getAttribute("joinMessage") %>;
-    if (joinMessage === 0) {
-        alert("회원가입에 실패했습니다. 다시 시도해주십시오");
-        // 페이지 로드를 막는 방법으로 location.href를 사용할 수 있습니다.
-        location.href = "shardLogin.jsp"; // 로그인 페이지 URL로 이동
-    } else if (joinMessage === 1) {
-        alert("등록되었습니다. The Shard의 회원이 되어주셔서 감사합니다.");
-    }
-</script>
-
+	
 	<div class="loginWrap">
 		<div class="login">
 			<ul class="tab">
@@ -43,7 +38,8 @@
 				<li>비회원</li>
 			</ul>
 			<p>로그인</p>
-			<form action="shardLogin.do" method="post" id="loginForm" name="loginForm">
+			<form action="ShardServlet" method="post" id="loginForm" name="loginForm">
+				<input type="hidden" name="command" value="login"/>
 				<fieldset>
 					<label for="userId" class="id"> <span>아이디</span> <input
 						type="text" name="userId" id="userId" />
@@ -53,7 +49,7 @@
 				</fieldset>
 				<div class="findIDandPwd">
 					<label for="adminLogin">관리자</label>
-					<input type="checkbox" name="adminLogin" id="adminLogin" />
+					<input type="checkbox" name="adminLogin" id="adminLogin" value="관리자"/>
 					<a href="">아이디/비밀번호 찾기</a>
 				</div>
 				<a href="javascript:loginCheck()" class="buttonLogin"><span>로그인</span></a>

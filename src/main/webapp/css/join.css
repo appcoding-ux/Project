@@ -10,7 +10,7 @@
 
 .join_box > form > ul {margin-bottom:12px;}
 
-.join_box > form > ul:first-child li {position:relative; height:49px; padding:0 23px; border:1px solid #dadada; background:#fff; color:#000; margin-bottom:10px;}
+.join_box > form > ul li {position:relative; height:49px; padding:0 23px; border:1px solid #dadada; background:#fff; color:#000; margin-bottom:10px;}
 
 .join_box > form > ul li label {font-size:14px; font-weight:bold; color:#3d3d3d; line-height:49px;}
 

@@ -9,6 +9,7 @@ import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
 import com.shard.dto.ShardMemberVO;
+import com.shard.util.DBManager;
 
 public class ShardMemberDAO {
 	private static ShardMemberDAO instance = new ShardMemberDAO();
@@ -20,34 +21,29 @@ public class ShardMemberDAO {
 	private ShardMemberDAO() {		
 	}
 	
-	public Connection getConnection() throws Exception {
-		Connection con = null;
-		Context initContext = new InitialContext();
-		Context envContext = (Context)initContext.lookup("java:/comp/env");
-		DataSource ds = (DataSource)envContext.lookup("jdbc/myoracle");
-		con = ds.getConnection();
-		return con;
-	}
-	
-	// 로그인 입력 폼에서 받은 정보를 데이터베이스에 있는 정보와 대조하는 메소드
+	// 로그인 입력 폼에서 받은 정보를 데이터베이스에 있는 정보와 대조하는 메소드 + 추가로 관리자까지 체크
 	public int userCheck(String userId, String userPwd) {
 		int result = -1;
-		String sql = "select userPwd from shardmember where userid = ?";
+		String sql = "select userPwd,AUTHCODE from CUSTOMER where userid = ?";
 		Connection con = null;
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		
 		try {
-			con = getConnection();
+			con = DBManager.getConnection();
 			ps = con.prepareStatement(sql);
 			ps.setString(1, userId);
 			
 			rs = ps.executeQuery();
 			if(rs.next()) {
 				if(rs.getString("userPwd")!=null && rs.getString("userPwd").equals(userPwd)) {
-					result = 1;
+					if(rs.getInt("AUTHCODE") == 1) {
+						result = 7;
+					}else {
+						result = 1;
+					}
 				}else {
-					result = 0;
+					result = -1;
 				}
 			}else {
 				result = -1;
@@ -67,11 +63,6 @@ public class ShardMemberDAO {
 		return result;
 	}
 	
-	//관리자로 체크하고 로그인을 시도했을 때 작동하는 메소드
-	public int adminCheck(String userId, String userPwd) {
-		return 0;
-	}
-	
 	// userId 값을 넘겨서 select구문을 통해 userId에 맞는 모든 데이터 출력
 	public ShardMemberVO getMember(String userId) {
 		ShardMemberVO vo = null;
@@ -81,7 +72,7 @@ public class ShardMemberDAO {
 		ResultSet rs = null;
 		
 		try {
-			con = getConnection();
+			con = DBManager.getConnection();
 			ps = con.prepareStatement(sql);
 			ps.setString(1, userId);
 			
@@ -102,9 +93,7 @@ public class ShardMemberDAO {
 			e.printStackTrace();
 		}finally {
 			try {
-				if(con != null) con.close();
-				if(ps != null) ps.close();
-				if(rs != null) rs.close();
+				DBManager.close(con, ps, rs);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -125,7 +114,7 @@ public class ShardMemberDAO {
 		ResultSet rs = null;
 		
 		try {
-			con = getConnection();
+			con = DBManager.getConnection();
 			ps = con.prepareStatement(sql);
 			ps.setString(1, userid);
 			
@@ -139,9 +128,7 @@ public class ShardMemberDAO {
 			e.printStackTrace();
 		}finally {
 			try {
-				if(con != null) con.close();
-				if(rs != null) rs.close();
-				if(ps != null) ps.close();
+				DBManager.close(con, ps, rs);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -159,7 +146,7 @@ public class ShardMemberDAO {
 		PreparedStatement ps = null;
 		
 		try {
-			con = getConnection();
+			con = DBManager.getConnection();
 			ps = con.prepareStatement(sql);
 			ps.setString(1, vo.getUserId());
 			ps.setString(2, vo.getUserPwd());
@@ -176,8 +163,7 @@ public class ShardMemberDAO {
 			e.printStackTrace();
 		}finally {
 			try {
-				if(con != null) con.close();
-				if(ps != null) ps.close();
+				DBManager.close(con, ps);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

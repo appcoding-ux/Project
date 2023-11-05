@@ -24,7 +24,7 @@ $(function() {
 		var isChecked = $(this).is(':checked');
 		$('#playmall, #userinfo').prop('checked', isChecked);
 	});
- 
+
 	// 개별 체크박스의 상태가 변경되었을 때
 	$('#playmall, #userinfo').change(function() {
 		// 개별 체크박스 상태에 따라 "전체 선택" 체크박스 상태 변경
@@ -33,58 +33,52 @@ $(function() {
 		$('#all_check').prop('checked', playmallChecked && userinfoChecked);
 	});
 	// "전체 선택" 체크박스의 상태가 변경되었을 때
-	$('#all_agree').change(function() {
-		// "전체 선택" 체크박스의 상태에 따라 다른 체크박스 상태 변경
+	$('.all_agree').change(function() {
+		// "전체 선택" 체크박스의 상태 가져오기
 		var isChecked = $(this).is(':checked');
-		$('#all_agree2').prop('checked', isChecked);
-	});
-
-	// 개별 체크박스의 상태가 변경되었을 때
-	$('#all_agree2').change(function() {
-		// 개별 체크박스 상태에 따라 "전체 선택" 체크박스 상태 변경
-		var userinfoChecked = $('#all_agree2').is(':checked');
-		$('#all_agree').prop('checked', userinfoChecked);
+		// 모든 "전체 선택" 체크박스의 상태 변경
+		$('.all_agree').prop('checked', isChecked);
 	});
 });
 
 
 function checkUserId() {
-    const userId = $('#userId').val();
-    const userIdCheckElement = $('.userIdCheck');
-    var idPatternEnd = /^(?![0-9]*$)[A-Za-z0-9]{4,12}$/;
-    var specialChar = /^[A-Za-z0-9]+$/;
+	const userId = $('#userId').val();
+	const userIdCheckElement = $('.userIdCheck');
+	var idPatternEnd = /^(?![0-9]*$)[A-Za-z0-9]{4,12}$/;
+	var specialChar = /^[A-Za-z0-9]+$/;
 
-    // Promise 객체를 반환합니다.
-    return new Promise(function(resolve, reject) {
-        $.ajax({
-            type: 'get',
-            url: 'joinUser.do',
-            data: { userId: userId },
-            success: function(response) {
-                var result = response.result;
-                if (result === 0) {
-                    if (idPatternEnd.test(userId)) {
-                        userIdCheckElement.text("사용 가능한 아이디입니다.").css({ color: "#000" });
-                        resolve(true); // Promise를 성공 상태로 처리
-                    } else if (!(idPatternEnd.test(userId))) {
-                        userIdCheckElement.text("4~12자리(한글 2~6자리)입력").css({ color: "#0095ff" });
-                        resolve(false); // Promise를 성공 상태로 처리
-                    } else if (specialChar.test(userId)) {
-                        userIdCheckElement.text("사용 불가능한 문자입니다.").css({ color: "#0095ff" });
-                        resolve(false); // Promise를 성공 상태로 처리
-                    }
-                } else {
-                    userIdCheckElement.text("사용 중인 아이디입니다.").css({ color: "#0095ff" });
-                    resolve(false); // Promise를 성공 상태로 처리
-                }
-            },
-            error: function() {
-                // 에러 처리
-                console.log("에러 발생");
-                reject("에러 발생"); // Promise를 실패 상태로 처리
-            }
-        });
-    });
+	// Promise 객체를 반환합니다.
+	return new Promise(function(resolve, reject) {
+		$.ajax({
+			type: 'get',
+			url: 'ShardServler?command=idCheck',
+			data: { userId: userId },
+			success: function(response) {
+				var result = response.result;
+				if (result === 0) {
+					if (idPatternEnd.test(userId)) {
+						userIdCheckElement.text("사용 가능한 아이디입니다.").css({ color: "#000" });
+						resolve(true); // Promise를 성공 상태로 처리
+					} else if (!(idPatternEnd.test(userId))) {
+						userIdCheckElement.text("4~12자리(한글 2~6자리)입력").css({ color: "#0095ff" });
+						resolve(false); // Promise를 성공 상태로 처리
+					} else if (specialChar.test(userId)) {
+						userIdCheckElement.text("사용 불가능한 문자입니다.").css({ color: "#0095ff" });
+						resolve(false); // Promise를 성공 상태로 처리
+					}
+				} else {
+					userIdCheckElement.text("사용 중인 아이디입니다.").css({ color: "#0095ff" });
+					resolve(false); // Promise를 성공 상태로 처리
+				}
+			},
+			error: function() {
+				// 에러 처리
+				console.log("에러 발생");
+				reject("에러 발생"); // Promise를 실패 상태로 처리
+			}
+		});
+	});
 }
 
 
@@ -126,16 +120,22 @@ function pwdDoubleCheck() {
 }
 
 function formSubmit() {
-    checkUserId().then(function(check) {
-        var check2 = pwdCheck();
+	checkUserId().then(function(check) {
+		var check2 = pwdCheck();
+		var check3 = $('.all_agree').is(":checked");
 
-        console.log(check);
-        console.log(check2);
 
-        if (check && check2) {
-            $('#joinForm').submit();
-        } else {
-            alert("회원정보를 제대로 입력해주세요");
-        }
-    });
+		if (check && check2) {
+			if (check3) {
+				$('#joinForm').submit();
+			}else {
+				alert("개인정보 수집·이용 동의가 필요합니다.");
+				$('.all_agree').focus();
+				return false;
+			}
+		} else {
+			alert("회원정보를 제대로 입력해주세요");
+			return false;
+		}
+	});
 }
