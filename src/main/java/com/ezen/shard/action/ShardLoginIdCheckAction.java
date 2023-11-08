@@ -1,11 +1,10 @@
-package com.shard.controller.action.member;
+package com.ezen.shard.action;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shard.controller.conn.Action;
-import com.shard.dao.ShardMemberDAO;
+import com.ezen.shard.dao.ShardMemberDAO;
 
 import oracle.jdbc.driver.json.tree.OracleJsonObjectImpl;
 import oracle.sql.json.OracleJsonObject;

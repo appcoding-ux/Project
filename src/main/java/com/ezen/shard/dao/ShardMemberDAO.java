@@ -4,8 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import com.ezen.shard.dto.ShardMemberVO;
-import com.shard.util.DBManager;
+import com.ezen.shard.domain.ShardMemberVO;
 
 public class ShardMemberDAO {
 	private static ShardMemberDAO instance = new ShardMemberDAO();
@@ -26,7 +25,7 @@ public class ShardMemberDAO {
 		ResultSet rs = null;
 		
 		try {
-			con = DBManager.getConnection();
+//			con = DBManager.getConnection();
 			ps = con.prepareStatement(sql);
 			ps.setString(1, userId);
 			
@@ -68,7 +67,7 @@ public class ShardMemberDAO {
 		ResultSet rs = null;
 		
 		try {
-			con = DBManager.getConnection();
+//			con = DBManager.getConnection();
 			ps = con.prepareStatement(sql);
 			ps.setString(1, userId);
 			
@@ -89,7 +88,7 @@ public class ShardMemberDAO {
 			e.printStackTrace();
 		}finally {
 			try {
-				DBManager.close(con, ps, rs);
+//				DBManager.close(con, ps, rs);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -110,7 +109,7 @@ public class ShardMemberDAO {
 		ResultSet rs = null;
 		
 		try {
-			con = DBManager.getConnection();
+//			con = DBManager.getConnection();
 			ps = con.prepareStatement(sql);
 			ps.setString(1, userid);
 			
@@ -124,7 +123,7 @@ public class ShardMemberDAO {
 			e.printStackTrace();
 		}finally {
 			try {
-				DBManager.close(con, ps, rs);
+//				DBManager.close(con, ps, rs);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -142,7 +141,7 @@ public class ShardMemberDAO {
 		PreparedStatement ps = null;
 		
 		try {
-			con = DBManager.getConnection();
+//			con = DBManager.getConnection();
 			ps = con.prepareStatement(sql);
 			ps.setString(1, vo.getUserId());
 			ps.setString(2, vo.getUserPwd());
@@ -159,7 +158,7 @@ public class ShardMemberDAO {
 			e.printStackTrace();
 		}finally {
 			try {
-				DBManager.close(con, ps);
+//				DBManager.close(con, ps);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

@@ -1,13 +1,12 @@
-package com.shard.controller.action.member;
+package com.ezen.shard.action;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.swing.Action;
 
 import com.ezen.shard.dao.ShardMemberDAO;
-import com.ezen.shard.dto.ShardMemberVO;
+import com.ezen.shard.domain.ShardMemberVO;
 
 public class ShardJoinAction implements Action {
 

@@ -1,4 +1,4 @@
-package com.ezen.shard.dto;
+package com.ezen.shard.domain;
 
 import lombok.Getter;
 import lombok.Setter;
