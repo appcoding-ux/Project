@@ -6,9 +6,9 @@
 <meta charset="UTF-8">
 <title>간편 회원가입</title>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
-<script src="js/joinFormInput.js" type="text/javascript"></script>
-<link rel="stylesheet" href="css/common.css" />
-<link rel="stylesheet" href="css/join.css" />
+<script src="/resources/js/joinFormInput.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/resources/css/common.css" />
+<link rel="stylesheet" href="/resources/css/join.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
@@ -23,8 +23,7 @@
 			<h2>회원정보 입력</h2>
 
 			<div class="join_box">
-				<form action="ShardServlet" method="post" id="joinForm">
-					<input type="hidden" name="command" value="join"/>
+				<form action="/shard/join" method="post" id="joinForm">
 					<ul>
 						<li>
 							<label for="name">이름</label> 

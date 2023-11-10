@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>The shard</title>
-<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="/resources/css/common.css" />
 </head>
 <body>
 	<jsp:include page="header.jsp"></jsp:include>

@@ -15,8 +15,8 @@
 			<%
                 } else {
                 %>
-			<li><a href='shardLogin.jsp'>로그인</a></li>
-			<li><a href="shardJoin.jsp">회원가입</a></li>
+			<li><a href="/shard/login">로그인</a></li>
+			<li><a href="/shard/join">회원가입</a></li>
 			<%
                 }
                 %>
@@ -25,20 +25,20 @@
 		</ul>
 	</div>
 	<div class="mainNav">
-		<a href="index.jsp" style="color: #000; font-family: cursive;">
-			<img src="logo.png" alt="로고 사진" />
+		<a href="/shard/" style="color: #000; font-family: cursive;">
+			<img src="/resources/logo.png" alt="로고 사진" />
 		</a>
 		<ul>
-			<li><a href="#">BEST</a></li>
-			<li><a href="#">NEW</a></li>
+			<li><a href="/shard/category/best">BEST</a></li>
+			<li><a href="/shard/category/best">NEW</a></li>
 			<li class="division_line"><span></span></li>
-			<li><a href="#">패키지</a></li>
-			<li><a href="#">Mtm</a></li>
-			<li><a href="#">Hood</a></li>
-			<li><a href="#">Bottom</a></li>
-			<li><a href="#">Shirts</a></li>
-			<li><a href="#">Denim</a></li>
-			<li><a href="#">Acc</a></li>
+			<li><a href="/shard/category/package">패키지</a></li>
+			<li><a href="/shard/category/mtm">Mtm</a></li>
+			<li><a href="/shard/category/hood">Hood</a></li>
+			<li><a href="/shard/category/bottom">Bottom</a></li>
+			<li><a href="/shard/category/shirts">Shirts</a></li>
+			<li><a href="/shard/category/denim">Denim</a></li>
+			<li><a href="/shard/category/acc">Acc</a></li>
 		</ul>
 	</div>
 </div>
