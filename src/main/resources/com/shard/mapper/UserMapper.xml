@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shard.mapper.UserMapper">
+	<select id="getUser" resultType="com.shard.domain.ShardMemberVO">
+		select * from CUSTOMER where userid = #{userid}
+	</select>
+
+	<select id="getUserId" resultType="string" parameterType="string">
+		select userid from CUSTOMER where userid = #{userid}
+	</select>
+
+	<select id="getUserList" resultType="com.shard.domain.ShardMemberVO">
+		select * from CUSTOMER
+	</select>
+
+	<insert id="insertUser">
+		insert into CUSTOMER values (#{userid}, #{USERPWD},
+		#{USERNAME}, #{EMAIL}, #{PHONE}, #{ADDRESS}, #{GENDER}, #{DOB},
+		#{SECESSION}, #{POINT}, #{USERADDR}, #{MEMNUM}, #{AUTHCODE})
+	</insert>
+
+	<update id="updateUser">
+		update CUSTOMER set userpwd =
+		#{userpwd},USERNAME = #{USERNAME},EMAIL = #{EMAIL},EMAIL =
+		#{EMAIL},PHONE = #{PHONE},ADDRESS = #{ADDRESS},GENDER = #{GENDER},DOB
+		= #{DOB},POINT = #{POINT},USERADDR = #{USERADDR} where userid =
+		#{userid}
+	</update>
+
+	<delete id="deleteUser">
+		delete from CUSTOMER where userid = #{userid}
+	</delete>
+	
+	<select id="getUserEmail" resultType="string">
+		select email from customer where email = #{email}
+	</select>
+</mapper>
