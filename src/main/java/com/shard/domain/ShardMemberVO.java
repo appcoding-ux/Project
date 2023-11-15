@@ -8,27 +8,7 @@ import lombok.ToString;
 @Setter
 @ToString
 public class ShardMemberVO {
-	private String userNo;
+	private String userId, userName, userPwd, Email ,Phone ,Dob ,Address;
 	
-	private String userId;
-	
-	private String userName;
-	
-	private String userPwd;
-	
-	private String memberShip;
-	
-	private String userEmail;
-	
-	private String userBirth;
-	
-	private String userPhone;
-	
-	private String regiDate;
-	
-	private int userTotalPrice;
-	
-	private String userAddress;
-	
-	private int userPoint;
+	private int memNum, Point, zipCode, secession, authCode;
 }

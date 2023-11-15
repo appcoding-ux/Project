@@ -17,7 +17,15 @@ public class ShardMemberDAOImpl implements ShardMemberDAO {
 
 	@Override
 	public int userCheck(String userId, String userPwd) {
-		int result = 1;
+		int result = 0;
+		String pwd = usermapper.userCheck(userId);
+		if(pwd.equals(userPwd)) {
+			result = 1;
+		}else {
+			result = 0;
+		}
+		
+		
 		return result;
 	}
 
@@ -53,7 +61,7 @@ public class ShardMemberDAOImpl implements ShardMemberDAO {
 	}
 
 	@Override
-	public String getUserEmail(String email) {
+	public ShardMemberVO getUserEmail(String email) {
 		return usermapper.getUserEmail(email);
 	}
 
@@ -65,5 +73,17 @@ public class ShardMemberDAOImpl implements ShardMemberDAO {
 	@Override
 	public boolean deleteUser(String userId) {
 		return usermapper.deleteUser(userId) == 1;
+	}
+
+	@Override
+	public int emailCheck(String email) {
+		int result = 0;
+		
+		String userEmail = usermapper.emailCheck(email);
+		if(userEmail != null) 
+			result = 1;
+		else result = 0;
+		
+		return result;
 	}
 }

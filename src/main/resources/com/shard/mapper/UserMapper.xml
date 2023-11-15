@@ -5,7 +5,7 @@
 
 <mapper namespace="com.shard.mapper.UserMapper">
 	<select id="getUser" resultType="com.shard.domain.ShardMemberVO">
-		select * from CUSTOMER where userid = #{userid}
+		select * from customer where userid = #{userid}
 	</select>
 
 	<select id="getUserId" resultType="string" parameterType="string">
@@ -34,7 +34,15 @@
 		delete from CUSTOMER where userid = #{userid}
 	</delete>
 	
-	<select id="getUserEmail" resultType="string">
+	<select id="getUserEmail" resultType="com.shard.domain.ShardMemberVO">
+		select * from customer where email = #{email}
+	</select>
+	
+	<select id="emailCheck" resultType="string">
 		select email from customer where email = #{email}
+	</select>
+	
+	<select id="userCheck" resultType="string">
+		select userPwd from customer where userid = #{userid}
 	</select>
 </mapper>

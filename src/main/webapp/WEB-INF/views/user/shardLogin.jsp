@@ -7,7 +7,6 @@
 <title>주문조회 로그인</title>
 <link rel="stylesheet" href="/resources/css/common.css" />
 <link rel="stylesheet" href="/resources/css/login.css" />
-<script src="/resources/js/kakaoLogin.js" type="text/javascript"></script>
 <script src="/resources/js/loginCheck.js" type="text/javascript"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +15,11 @@
 	rel="stylesheet">
 <script>
 	var result = ${result};
+	
 	if(result == -1){
 		alert("아이디 또는 비밀번호가 맞지 않습니다.");
 	}
+	
 </script>
 </head>
 <body>
@@ -47,7 +48,7 @@
 					<a href="/shard/finduser">아이디/비밀번호 찾기</a>
 				</div>
 				<a href="javascript:loginCheck()" class="buttonLogin"><span>로그인</span></a>
-				<a href="shardJoin.jsp" class="buttonJoin"><span>회원가입</span></a>
+				<a href="/shard/join" class="buttonJoin"><span>회원가입</span></a>
 
 				<div class="sns_login">
 					<p>SNS로그인</p>

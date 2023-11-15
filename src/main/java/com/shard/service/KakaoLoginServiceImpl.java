@@ -128,5 +128,4 @@ public class KakaoLoginServiceImpl implements KakaoLoginService{
 		
 		return userInfo;
 	}
-
 }

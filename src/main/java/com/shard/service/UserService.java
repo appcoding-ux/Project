@@ -11,7 +11,7 @@ public interface UserService {
 	
 	public int idCheck(String userId);
 
-	public String getUserEmail(String email);
+	public ShardMemberVO getUserEmail(String email);
 
 	public List<ShardMemberVO> getUserList();
 
@@ -20,4 +20,6 @@ public interface UserService {
 	public boolean updateUser(ShardMemberVO vo);
 
 	public boolean deleteUser(String userId);
+	
+	public int emailCheck(String email);
 }

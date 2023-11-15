@@ -16,7 +16,9 @@ public interface ShardMemberDAO {
 
 	public List<ShardMemberVO> getUserList();
 
-	public String getUserEmail(String email);
+	public ShardMemberVO getUserEmail(String email);
+	
+	public int emailCheck(String email);
 
 	public boolean updateUser(ShardMemberVO vo);
 

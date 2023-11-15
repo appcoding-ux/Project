@@ -53,10 +53,12 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public String getUserEmail(String email) {
+	public ShardMemberVO getUserEmail(String email) {
 		return dao.getUserEmail(email);
 	}
 
-	
-
+	@Override
+	public int emailCheck(String email) {
+		return dao.emailCheck(email);
+	}
 }

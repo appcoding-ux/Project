@@ -21,41 +21,29 @@
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 </head>
 <body>
+	<script>
+		var userEmail = "${userEmail}";
+
+		if (!(userEmail == "")) {
+			var shouldSignUp = confirm("아직 The Shard의 회원이 아니십니다. 회원가입을 하시겠습니까?");
+
+			if (!shouldSignUp) {
+				// 사용자가 "취소"를 선택한 경우 현재 페이지에 머무르기
+				location.href = '/shard/';
+			}
+			// "확인"을 선택한 경우에는 아무 동작도 하지 않음
+		}
+	</script>
 
 	<jsp:include page="../header.jsp"></jsp:include>
 
 	<div class="joinWrap">
 		<div class="join">
-			<h2>회원정보 입력</h2>
+			<h2>sns 간편가입</h2>
 
 			<div class="join_box">
 				<form action="/shard/join" method="post" id="joinForm">
 					<ul>
-						<li><label for="name">이름</label> <input type="text"
-							name="name" id="name" /></li>
-						<li><label for="userId">아이디</label> <input type="text"
-							name="userId" id="userId" maxlength="12" value="" /></li>
-
-						<p class="msg_txt">
-							<span class="userIdCheck"></span>
-						</p>
-						<li><label for="pwd">비밀번호</label> <input type="password"
-							name="pwd" id="pwd" /></li>
-						<p class="msg_txt">
-							<span style="font-size: 13px; color: #0095ff" class="pwd_check1">영문
-								대소문자/숫자/특수문자를 혼용하여 2종류 10~16자 또는 3종류 10~16자 입력</span>
-						</p>
-						<li><label for="pwd_check">비밀번호 확인</label> <input
-							type="password" name="pwd_check" id="pwd_check" /></li>
-						<p class="msg_txt">
-							<span class="pwd_check2"></span>
-						</p>
-						<li><label for="email">이메일</label> <input type="text"
-							name="email" id="email" value="${userEmail}" /></li>
-						<p class="msg_txt">
-							<span style="color: #949494">이메일은 회원제 서비스 이용, 본인확인 용도입니다.
-								마케팅 수신동의 시 해당 이메일을 이용합니다.</span>
-						</p>
 						<p style="font-size: 18px; font-weight: 600; color: #000;">주소</p>
 						<li class="address"><input type="text" id="postcode"
 							placeholder="우편번호" name="postcode">
@@ -68,20 +56,6 @@
 							type="text" id="detailAddress" placeholder="상세주소"
 							name="detailAddress"> <input type="text"
 							id="extraAddress" placeholder="참고항목" name="extraAddress">
-						</li>
-						<li class="birth">
-							<div class="birth_box">
-								<label for="birthYear">생년</label><input type="text"
-									name="birthYear" id="birthYear" maxlength="4" />
-							</div>
-							<div class="birth_box">
-								<label for="birthMonth">월</label><input type="text"
-									name="birthMonth" id="birthMonth" maxlength="2" />
-							</div>
-							<div class="birth_box">
-								<label for="birthDay">일</label><input type="text"
-									name="birthDay" id="birthDay" maxlength="2" />
-							</div>
 						</li>
 						<li><label for="phone">휴대폰번호</label> <input type="text"
 							name="phone" id="phone" maxlength="11" /></li>
