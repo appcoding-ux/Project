@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>주문조회 로그인</title>
+<title>로그인</title>
 <link rel="stylesheet" href="/resources/css/common.css" />
 <link rel="stylesheet" href="/resources/css/login.css" />
 <script src="/resources/js/loginCheck.js" type="text/javascript"></script>
@@ -14,10 +14,20 @@
 	href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Noto+Sans:ital,wght@0,200;1,300&display=swap"
 	rel="stylesheet">
 <script>
-	var result = ${result};
+	var result = "${result}";
 	
-	if(result == -1){
+	if(result == "-1"){
 		alert("아이디 또는 비밀번호가 맞지 않습니다.");
+	}
+	
+	if(result == "noAdmin"){
+		alert("당신은 관리자가 아닙니다.");
+	}
+	
+	if(result == "success"){
+		alert("성공적으로 회원가입이 완료되었습니다.");
+	}else if(result == "faild"){
+		alert("회원가입 도중 에러가 발생했습니다.");
 	}
 	
 </script>
@@ -30,8 +40,7 @@
 	<div class="loginWrap">
 		<div class="login">
 			<ul class="tab">
-				<li>회원</li>
-				<li>비회원</li>
+				<li>회원 로그인</li>
 			</ul>
 			<p>로그인</p>
 			<form action="/shard/login" method="post" id="loginForm" name="loginForm">
@@ -63,10 +72,6 @@
 				</div>
 			</form>
 		</div>
-	</div>
-	
-	<div class="non_members">
-		
 	</div>
 
 

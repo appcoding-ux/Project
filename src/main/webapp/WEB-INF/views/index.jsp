@@ -9,8 +9,8 @@
 </head>
 <body>
 	<script type="text/javascript">
-		var result = ${result};
-		if(result === "logout"){
+		var result = "${result}";
+		if(result == "logout"){
 			alert("성공적으로 로그아웃되었습니다.");
 		}
 	</script>

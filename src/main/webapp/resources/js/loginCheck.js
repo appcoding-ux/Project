@@ -9,5 +9,17 @@ function loginCheck(){
 		loginForm.userPwd.focus();
 		return false;
 	}
-    document.getElementById("loginForm").submit();
+	
+	document.getElementById("loginForm").submit();
 }
+
+$(function(){
+	$('.buttonLogin').click(function(e){
+		e.preventDefault();
+		if($('#adminLogin').is(":checked")){
+			$("#loginForm").attr("action", "/shard/adminLogin");
+		}
+
+		$("#loginForm").submit();
+	})
+});

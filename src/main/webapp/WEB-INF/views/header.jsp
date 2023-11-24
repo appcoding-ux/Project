@@ -2,8 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<!DOCTYPE html>
-
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
 <div class="header">
 	<div class="topRightNav">
 		<ul>
@@ -45,12 +44,12 @@
 			<li><a href="/shard/category/best">BEST</a></li>
 			<li><a href="/shard/category/best">NEW</a></li>
 			<li class="division_line"><span></span></li>
-			<li><a href="/shard/category/package">패키지</a></li>
-			<li><a href="/shard/category/mtm">Mtm</a></li>
-			<li><a href="/shard/category/hood">Hood</a></li>
-			<li><a href="/shard/category/bottom">Bottom</a></li>
-			<li><a href="/shard/category/shirts">Shirts</a></li>
-			<li><a href="/shard/category/denim">Denim</a></li>
+			<li><a href="/shard/category/2">HoodZipup</a></li>
+			<li><a href="/shard/category/11">Mtm</a></li>
+			<li><a href="/shard/category/1">Hood</a></li>
+			<li><a href="/shard/category/8">Cotton</a></li>
+			<li><a href="/shard/category/6">Denim</a></li>
+			<li><a href="/shard/category/4">Shirts</a></li>
 			<li><a href="/shard/category/acc">Acc</a></li>
 		</ul>
 	</div>

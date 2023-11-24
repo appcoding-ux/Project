@@ -31,7 +31,7 @@ public class ShardMemberDAOImplTest {
 	
 	@Test
 	public void idCheckTest() {
-		log.info(usermapper.getUser("dodo607"));
+		log.info(usermapper.getUser("admin"));
 	}
 	
 	@Test

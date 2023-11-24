@@ -5,7 +5,7 @@
 
 <mapper namespace="com.shard.mapper.UserMapper">
 	<select id="getUser" resultType="com.shard.domain.ShardMemberVO">
-		select * from customer where userid = #{userid}
+		select * from CUSTOMER where userid = #{userid}
 	</select>
 
 	<select id="getUserId" resultType="string" parameterType="string">
@@ -17,9 +17,13 @@
 	</select>
 
 	<insert id="insertUser">
-		insert into CUSTOMER values (#{userid}, #{USERPWD},
-		#{USERNAME}, #{EMAIL}, #{PHONE}, #{ADDRESS}, #{GENDER}, #{DOB},
-		#{SECESSION}, #{POINT}, #{USERADDR}, #{MEMNUM}, #{AUTHCODE})
+		insert into CUSTOMER(userId, userPwd, userName, email, phone, dob, zipCode, userAddr, detailAddr) values (#{userid}, #{USERPWD},
+		#{USERNAME}, #{EMAIL}, #{PHONE}, #{DOB},
+		#{zipCode}, #{USERADDR}, #{detailAddr})
+	</insert>
+	
+	<insert id="insertKakaoUser">
+		insert into customer(email, username, phone, dob) values (#{email}, #{username}, #{phone}, #{dob})
 	</insert>
 
 	<update id="updateUser">
@@ -44,5 +48,9 @@
 	
 	<select id="userCheck" resultType="string">
 		select userPwd from customer where userid = #{userid}
+	</select>
+	
+	<select id="adminCheck" resultType="string">
+		select userPwd from customer where userid = #{userid} and authcode = 1;
 	</select>
 </mapper>

@@ -102,6 +102,7 @@ function pwdCheck() {
 	return check;
 }
 
+// 비밀번호 확인 체크
 function pwdDoubleCheck() {
 	var pwd = $('#pwd').val();
 	var doublePwd = $('#pwd_check').val();
@@ -115,6 +116,7 @@ function pwdDoubleCheck() {
 	}
 }
 
+// 이메일이 정상적으로 입력이 되었는지 체크
 function emailCheck(){
 	var email = $('#email').val();
 	const emailCheck = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -129,12 +131,29 @@ function emailCheck(){
 	return check;
 }
 
+// 주소가 정상적으로 입력되었는지 체크
+function addressCheck(){
+	var zipCode = $('#postcode').val();
+	var userAddr = $("#roadAddress").val() + $("#jibunAddress").val() + $("#extraAddress").val();
+	var detailAddr = $("#detailAddress").val();
+	var check5 = false;
+
+	if(zipCode == "" && userAddr == "" && detailAddr== ""){
+		return false;
+	}else {
+		check5 = true;
+	}
+
+	return check5;
+}
+
 function formSubmit() {
 	checkUserId().then(function(check) {
 		var check2 = pwdCheck(); // 패스워드 체크
 		var check3 = $('.all_agree').is(":checked"); // 개인정보 동의 체크
 		var check4 = emailCheck(); // 이메일 체크
-		
+		var check5 = addressCheck();
+
 		// 휴대폰 인증
 		// 생일 인증
 		// 약관 인증까지
@@ -144,7 +163,11 @@ function formSubmit() {
 		if (check && check2) {
 			if(check4){ // 이메일 체크,
 				if (check3) { // 개인정보 동의 체크
-					$('#joinForm').submit();
+					if(check5){ // 회원 주소 체크
+						$('#joinForm').submit();
+					}else {
+						alert("회원님의 주소는 필수입력입니다.");
+					}
 				}else {
 					alert("개인정보 수집·이용 동의가 필요합니다.");
 					$('.all_agree').focus();

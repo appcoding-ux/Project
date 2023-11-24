@@ -9,7 +9,7 @@
 <meta charset="UTF-8">
 <title>간편 회원가입</title>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
-<script src="/resources/js/joinFormInput.js" type="text/javascript"></script>
+<script src="/resources/js/kakaoJoin.js" type="text/javascript"></script>
 <script src="/resources/js/address.js" type="text/javascript"></script>
 <link rel="stylesheet" href="/resources/css/common.css" />
 <link rel="stylesheet" href="/resources/css/join.css" />
@@ -42,7 +42,9 @@
 			<h2>sns 간편가입</h2>
 
 			<div class="join_box">
-				<form action="/shard/join" method="post" id="joinForm">
+				<form action="/shard/kakaoJoin" method="post" id="joinForm">
+					<input type="hidden" name="email" value="${userEmail}" />
+					<input type="hidden" name="userName" value="${nickName}" />
 					<ul>
 						<p style="font-size: 18px; font-weight: 600; color: #000;">주소</p>
 						<li class="address"><input type="text" id="postcode"
@@ -56,6 +58,20 @@
 							type="text" id="detailAddress" placeholder="상세주소"
 							name="detailAddress"> <input type="text"
 							id="extraAddress" placeholder="참고항목" name="extraAddress">
+						</li>
+						<li class="birth">
+							<div class="birth_box">
+								<label for="birthYear">생년</label><input type="text"
+									name="birthYear" id="birthYear" maxlength="4" />
+							</div>
+							<div class="birth_box">
+								<label for="birthMonth">월</label><input type="text"
+									name="birthMonth" id="birthMonth" maxlength="2" />
+							</div>
+							<div class="birth_box">
+								<label for="birthDay">일</label><input type="text"
+									name="birthDay" id="birthDay" maxlength="2" />
+							</div>
 						</li>
 						<li><label for="phone">휴대폰번호</label> <input type="text"
 							name="phone" id="phone" maxlength="11" /></li>

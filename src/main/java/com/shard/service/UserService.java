@@ -15,11 +15,15 @@ public interface UserService {
 
 	public List<ShardMemberVO> getUserList();
 
-	public void insertUser(ShardMemberVO vo);
+	public int insertUser(ShardMemberVO vo);
+	
+	public int insertKakaoUser(ShardMemberVO vo);
 
-	public boolean updateUser(ShardMemberVO vo);
+	public int updateUser(ShardMemberVO vo);
 
-	public boolean deleteUser(String userId);
+	public int deleteUser(String userId);
 	
 	public int emailCheck(String email);
+
+	public int adminCheck(String userId, String userPwd);
 }

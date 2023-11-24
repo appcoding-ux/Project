@@ -16,10 +16,9 @@
 	<h2>관리자 페이지</h2>
 	
 	<ul>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
+		<li><a href="">회원관리</a></li>
+		<li><a href="">제품 관리</a></li>
+		<li><a href="">리뷰 & 문의 관리</a></li>
 	</ul>	
 	
 	<jsp:include page="../footer.jsp" />
