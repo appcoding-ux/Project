@@ -7,6 +7,7 @@
 <title>로그인</title>
 <link rel="stylesheet" href="/resources/css/common.css" />
 <link rel="stylesheet" href="/resources/css/login.css" />
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
 <script src="/resources/js/loginCheck.js" type="text/javascript"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +26,7 @@
 	}
 	
 	if(result == "success"){
-		alert("성공적으로 회원가입이 완료되었습니다.");
+		alert("성공적으로 회원가입이 완료되었습니다.\n 저희 The Shard의 회원이 되주셔서 감사합니다.\n회원가입 기념으로 웰컴 쿠폰이 지급되었습니다.");
 	}else if(result == "faild"){
 		alert("회원가입 도중 에러가 발생했습니다.");
 	}
@@ -56,7 +57,7 @@
 					<input type="checkbox" name="adminLogin" id="adminLogin" value="관리자"/>
 					<a href="/shard/finduser">아이디/비밀번호 찾기</a>
 				</div>
-				<a href="javascript:loginCheck()" class="buttonLogin"><span>로그인</span></a>
+				<a href="#" class="buttonLogin"><span onclick="loginCheck()">로그인</span></a>
 				<a href="/shard/join" class="buttonJoin"><span>회원가입</span></a>
 
 				<div class="sns_login">

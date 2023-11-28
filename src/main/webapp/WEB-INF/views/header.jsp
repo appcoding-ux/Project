@@ -2,7 +2,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
 <div class="header">
 	<div class="topRightNav">
 		<ul>
@@ -22,6 +21,7 @@
 				</c:when>
 				<c:otherwise>
 					<li><a href="/shard/logout">로그아웃</a></li>
+					<li><a href="/shard/mypage">마이페이지</a></li>
 				</c:otherwise>
 			</c:choose>
 			<%
@@ -29,10 +29,10 @@
 			%>
 			<li><a href="/shard/login">로그인</a></li>
 			<li><a href="/shard/join">회원가입</a></li>
+			<li><a href="#">주문조회</a></li>
 			<%
 			}
 			%>
-			<li><a href="#">주문조회</a></li>
 			<li><a href="/shard/qna">Q&A</a></li>
 		</ul>
 	</div>

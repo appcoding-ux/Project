@@ -5,11 +5,11 @@
 
 <mapper namespace="com.shard.mapper.UserMapper">
 	<select id="getUser" resultType="com.shard.domain.ShardMemberVO">
-		select * from CUSTOMER where userid = #{userid}
+		select * from CUSTOMER where userId = #{userId}
 	</select>
 
-	<select id="getUserId" resultType="string" parameterType="string">
-		select userid from CUSTOMER where userid = #{userid}
+	<select id="getUserId" resultType="string">
+		select userid from CUSTOMER where userId = #{userId}
 	</select>
 
 	<select id="getUserList" resultType="com.shard.domain.ShardMemberVO">
@@ -17,9 +17,8 @@
 	</select>
 
 	<insert id="insertUser">
-		insert into CUSTOMER(userId, userPwd, userName, email, phone, dob, zipCode, userAddr, detailAddr) values (#{userid}, #{USERPWD},
-		#{USERNAME}, #{EMAIL}, #{PHONE}, #{DOB},
-		#{zipCode}, #{USERADDR}, #{detailAddr})
+		insert into CUSTOMER(userId, userPwd, userName, email, phone, dob) values (#{userId}, #{userPwd},
+		#{userName}, #{email}, #{phone}, #{dob});
 	</insert>
 	
 	<insert id="insertKakaoUser">
@@ -30,12 +29,11 @@
 		update CUSTOMER set userpwd =
 		#{userpwd},USERNAME = #{USERNAME},EMAIL = #{EMAIL},EMAIL =
 		#{EMAIL},PHONE = #{PHONE},ADDRESS = #{ADDRESS},GENDER = #{GENDER},DOB
-		= #{DOB},POINT = #{POINT},USERADDR = #{USERADDR} where userid =
-		#{userid}
+		= #{DOB},POINT = #{POINT},USERADDR = #{USERADDR} where userid = #{userid}
 	</update>
 
 	<delete id="deleteUser">
-		delete from CUSTOMER where userid = #{userid}
+		delete from CUSTOMER where userId = #{userId}
 	</delete>
 	
 	<select id="getUserEmail" resultType="com.shard.domain.ShardMemberVO">
@@ -47,10 +45,10 @@
 	</select>
 	
 	<select id="userCheck" resultType="string">
-		select userPwd from customer where userid = #{userid}
+		select userPwd from customer where userId = #{userId}
 	</select>
 	
 	<select id="adminCheck" resultType="string">
-		select userPwd from customer where userid = #{userid} and authcode = 1;
+		select userPwd from customer where userId = #{userId} and authcode = 1;
 	</select>
 </mapper>

@@ -10,7 +10,8 @@
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>11</java-version>
-		<org.springframework-version>5.2.7.RELEASE</org.springframework-version>
+		<org.springframework-version>5.2.7.RELEASE
+		</org.springframework-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
@@ -85,8 +86,11 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-		<!-- <dependency> <groupId>javax.servlet</groupId> <artifactId>jstl</artifactId> 
-			<version>1.2</version> </dependency> -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
 
 		<!-- Test -->
 		<dependency>
@@ -161,7 +165,7 @@
 			<artifactId>gson</artifactId>
 			<version>2.8.2</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
@@ -195,10 +199,12 @@
 				<version>2.9</version>
 				<configuration>
 					<additionalProjectnatures>
-						<projectnature>org.springframework.ide.eclipse.core.springnature</projectnature>
+						<projectnature>org.springframework.ide.eclipse.core.springnature
+						</projectnature>
 					</additionalProjectnatures>
 					<additionalBuildcommands>
-						<buildcommand>org.springframework.ide.eclipse.core.springbuilder</buildcommand>
+						<buildcommand>org.springframework.ide.eclipse.core.springbuilder
+						</buildcommand>
 					</additionalBuildcommands>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>

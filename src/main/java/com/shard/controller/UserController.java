@@ -3,6 +3,7 @@ package com.shard.controller;
 import java.util.HashMap;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -54,6 +55,13 @@ public class UserController {
 	public String join(ShardMemberVO vo, RedirectAttributes rttr, Model model) {
 		log.info("join");
 		return "user/shardJoin";
+	}
+	
+	@GetMapping("/mypage")
+	public String mypage(Model model) {
+		ShardMemberVO vo = (ShardMemberVO)model.getAttribute("user");
+		model.addAttribute("user", vo);
+		return "user/mypage";
 	}
 
 	// 카카오 회원가입 페이지로 이동
@@ -115,6 +123,7 @@ public class UserController {
 	// 관리자 로그인할 때 체킹
 	@PostMapping("/adminLogin")
 	public String adminLogin(Model model, @RequestParam("userId") String userId, @RequestParam("userPwd") String userPwd) {
+		System.out.println("여기로 오냐?");
 		String url = "";
 		
 		int result = userservice.adminCheck(userId, userPwd);
@@ -122,7 +131,7 @@ public class UserController {
 		if (result == 1) {
 			ShardMemberVO vo = userservice.getUser(userId);
 			model.addAttribute("user", vo);
-			url = "index";
+			url = "redirect:/admin/Admin";
 		} else {
 			model.addAttribute("result", "noAdmin");
 			url = "user/shardLogin";
