@@ -2,20 +2,34 @@ package com.shard.service;
 
 import java.util.List;
 
+import com.shard.domain.CouponVO;
+import com.shard.domain.DeliverAddrVO;
 import com.shard.domain.ShardMemberVO;
 
 public interface UserService {
-	public ShardMemberVO getUser(String userId);
+	public int userCheck(String email, String userPwd);
 	
-	public String getUserId(String userId);
+	public ShardMemberVO getUser(String email);
 	
-	public String getUserEmail(String email);
+	public int idCheck(String email);
+
+	public ShardMemberVO getUserEmail(String email);
+
+	public int insertUser(ShardMemberVO vo);
 	
-	public List<ShardMemberVO> getUserList();
+	public void insertAddr(DeliverAddrVO vo);
 	
-	public void insertUser(ShardMemberVO vo);
+	public int insertKakaoUser(ShardMemberVO vo);
+
+	public int updateUser(ShardMemberVO vo);
+
+	public int deleteUser(String email);
 	
-	public boolean updateUser(ShardMemberVO vo);
+	public int emailCheck(String email);
+
+	public int adminCheck(String email, String userPwd);
 	
-	public boolean deleteUser(String userId);
+	public void insertCoupon(List<Integer> coupon, String email);
+	
+	public void updatePwd(String email, String pwd);
 }

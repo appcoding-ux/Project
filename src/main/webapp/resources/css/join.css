@@ -12,9 +12,14 @@
 
 .join_box > form > ul li {position:relative; height:49px; padding:0 23px; border:1px solid #dadada; background:#fff; color:#000; margin-bottom:10px;}
 
+.join_box > form > ul li:nth-child(2) > button {display:block; position:absolute; top:6px; right:8px; width:83px; height:34px; line-height:34px; font-size:14px; font-weight:bold; color:#333; text-align:center; border:1px solid #333; border-radius:20px; background:#fff;}
+.emailSecurity {display:block; position:absolute; top:6px; right:8px; width:83px; height:34px; line-height:34px; font-size:14px; font-weight:bold; color:#333; text-align:center; border:1px solid #333; border-radius:20px; background:#fff;}
+.join_box > form > ul li:nth-child(2) > button:hover {background:#999; cursor:pointer;}
+.emailSecurity:hover {background:#999;cursor:pointer;}
 .join_box > form > ul li label {font-size:14px; font-weight:bold; color:#3d3d3d; line-height:49px;}
 
-.birth input {left:0!important; width:90% !important; }
+.birth {position:relative;}
+.birth_box input {left:0!important; width:90% !important; }
 .join_box > form > ul li input {position:absolute; top:0; left:23px; width:300px; height:49px; line-height:49px; font-size:14px; font-weight:bold; color:#000; border:0; opacity: 0;}
 
 .msg_txt {margin:5px 0 10px;}
@@ -23,6 +28,22 @@
 .userIdCheck, .pwd_check {color:#0095ff; font-size:13px;}
 
 .birth_box {width:100px; position:relative; float:left; font-size:14px; font-weight:bold; height:49px;}
+.gender_box {width:150px; position:absolute; top:0; right:0;}
+.gender_box input {right:20px !important; left:0 !important; width:15px !important; height:15px !important; opacity:1 !important; margin:15px 0 0 50px;}
+
+/* 회원의 주소 */
+.address {height:200px !important; border:0 !important; padding-left:0 !important;
+margin-top:10px !important;}
+.address input {opacity : 1!important; position:relative !important; top:0 !important; left:0 !important; border:1px solid #dadada !important; padding-left:5px !important;}
+.address input::placeholder {padding-left:5px; color:#3d3d3d;}
+.adress_find {display:inline-block !important; width:130px !important; height:51px !important; line-height:51px !important; font-size:14px !important; color:#000 !important; text-align:center !important; font-weight:600 !important; border:0 !important; background:#ddd !important; border-radius:5px !important; position: static !important;}
+#postcode {width:106px !important; margin-bottom:5px !important;}
+#roadAddress {width:48% !important; margin-bottom:5px !important;}
+#jibunAddress {width:48% !important; margin-bottom:5px !important;}
+#detailAddress {width:40% !important;}
+#extraAddress {width:40% !important;}
+
+
 
 .join_msg li {border:0; padding-bottom:5px;}
 .join_msg li:first-child > span {color:#0549bb; font-size:14px; font-weight:bold;}
@@ -54,3 +75,8 @@
 
 .contract-table td {text-align: center; border:1px solid #e5e5e5;}
 .contract-table td div {padding:10px; font-size:12px;}
+
+
+.getBtn button {float:right; margin:30px 10px; border:1px solid #787878; color:#000; background:#fff; transition:all 0.2s ease-in-out; border-radius: 30px; padding:8px 20px; font-size:13px; line-height:15px;}
+
+.getBtn button:hover {color:#fff; background:#787878;}

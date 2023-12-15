@@ -1,34 +1,45 @@
 package com.shard.domain;
 
+import java.sql.Timestamp;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
 @Getter
 @Setter
 @ToString
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class ShardMemberVO {
-	private String userNo;
-	
-	private String userId;
+	private String userPwd;
 	
 	private String userName;
 	
-	private String userPwd;
+	private String email;
 	
-	private String memberShip;
+	private String phone;
 	
-	private String userEmail;
+	private Timestamp dob;
 	
-	private String userBirth;
+	private int secession;
 	
-	private String userPhone;
+	private int point;
 	
-	private String regiDate;
+	private Timestamp userRegiDate;
 	
-	private int userTotalPrice;
+	private int memNum;
 	
-	private String userAddress;
+	private String authCode;
 	
-	private int userPoint;
-}
+	private String gender;
+	
+	private List<AuthorityVO> authList;
+	
+}	
+	

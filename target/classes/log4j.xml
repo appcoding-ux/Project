@@ -10,6 +10,20 @@
 		</layout>
 	</appender>
 	
+	<Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <Logger name="com.zaxxer.hikari" level="debug">
+            <AppenderRef ref="Console"/>
+        </Logger>
+    </Loggers>
+	
 	<!-- Application Loggers -->
 	<logger name="com.shard.controller">
 		<level value="info" />
