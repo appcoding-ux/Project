@@ -7,6 +7,7 @@
 </div>
 <br/><br/>
 
+
 ## 목차
 - [개요](https://github.com/appcoding-ux/Project#-개요)
 - [기술 스택](https://github.com/appcoding-ux/Project#-기술-스택)
@@ -14,6 +15,7 @@
 - [핵심 기능](https://github.com/appcoding-ux/Project#-핵심-기능)
 - [주요기능 실행화면](https://github.com/appcoding-ux/Project#-주요기능-실행화면)
 - [개선사항](https://github.com/appcoding-ux/Project#-개선사항)
+- 
 
 ## 🚩 개요
 - 프로젝트 목표 : 다양한 `API`를 활용한 `스프링` , `마이바티스` 의류 쇼핑몰 프로젝트
@@ -29,6 +31,7 @@
 - Tool : `SpringSource Tool Suite (STS)`
 - Infra : `Linux(Ubuntu)` `EC2`
 - Etc : `Git`
+
 
 
 ## 👾 프로젝트 설계
@@ -48,6 +51,7 @@
 
 
 ## 💻 핵심 기능
+
 
 #### 상품
 - 의류 쇼핑몰 사이트를 이용해 상품정보 DB 저장
@@ -89,6 +93,7 @@
 - 비밀글 (작성자, 관리자만 조회 가능)
 - 1:1 문의 작성 및 문의 조회
 - 관리자의 계층형 답글
+
  
 ## 🎇 주요기능 실행화면
 
@@ -142,6 +147,7 @@
   * 고객센터에서 유저가 1:1문의를 작성하면 관리자가 답변을 해줄 수 있습니다.
   
 </details>
+
 
 ## 🌄 개선사항
 - 배송전 주문취소 기능
