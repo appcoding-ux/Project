@@ -25,6 +25,7 @@
 
 
 ## 🔧 기술 스택
+- API : `카카오 API` `PORTONE API` `VWORLD API` `Tmap API`
 - Language : `Java(11)` `JavaScript(1.5)`
 - Library & Framework : `Spring(5.3.23)` `Junit(4.12)` `Servlet(4.0.1)` `Spring Security`
 - Database : `MySQL(8.0.35)`
@@ -151,5 +152,6 @@
 
 ## 🌄 개선사항
 - 배송전 주문취소 기능
+- 할인율 높은 쿠폰 자동적용
 - 고객의 환불 요청
 - 리뷰 수정, 삭제, 리뷰의 대댓글
