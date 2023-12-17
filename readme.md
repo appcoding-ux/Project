@@ -26,10 +26,10 @@
 
 ## 🔧 기술 스택
 - Language : `Java(11)` `JavaScript(1.5)`
-- Library & Framework : `Spring(5.3.23)` `Junit(4.12)` `Servlet(4.0.1)`
+- Library & Framework : `Spring(5.3.23)` `Junit(4.12)` `Servlet(4.0.1)` `Spring Security`
 - Database : `MySQL(8.0.35)`
 - Target : `Web Browser`
-- Tool : `SpringSource Tool Suite (STS)`
+- Tool : `SpringSource Tool Suite (STS) 3.9.18.RELEASE`
 - Infra : `Linux(Ubuntu)` `EC2`
 - Etc : `Git`
 
