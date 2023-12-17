@@ -38,9 +38,9 @@
 ## 👾 프로젝트 설계
 ### ERD, UseCase
 -ERD
-  <img width="1249" alt="spring 프로젝트 ERD" src="![image](https://github.com/appcoding-ux/Project/assets/112378228/9ed3124a-16b3-4b7a-bcb5-7cfd726142b0)">
+  <img width="1249" alt="spring 프로젝트 ERD" src="https://github.com/appcoding-ux/Project/assets/112378228/9ed3124a-16b3-4b7a-bcb5-7cfd726142b0">
 -UseCase 다이어그램
-  <img width="1243" alt="spting 프로젝트 UseCase" src="![image](https://github.com/appcoding-ux/Project/assets/112378228/b34e005a-4a86-45b5-85e1-08f1fb2f73b2)">
+  <img width="1243" alt="spting 프로젝트 UseCase" src="https://github.com/appcoding-ux/Project/assets/112378228/b34e005a-4a86-45b5-85e1-08f1fb2f73b2">
 
 ### 클래스 다이어그램
 - ![image](https://github.com/appcoding-ux/Project/assets/112378228/ccf1be13-294a-4cad-8162-910ceaa3718e)
