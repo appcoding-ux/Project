@@ -1,4 +1,4 @@
-<h1 align='center'> <img src='[https://user-images.githubusercontent.com/113401870/202498788-74498caa-d4a2-4131-806a-a2c3da64db8f.png](https://cdn-icons-png.flaticon.com/512/5208/5208370.png)' style='width: 300px; height: 100px;'>&nbsp;</h1>
+<h1 align='center'> <img src='https://cdn-icons-png.flaticon.com/512/5208/5208370.png' style='width: 300px; height: 100px;'>&nbsp;</h1>
 <h1  align='center'>👕스프링 의류 쇼핑몰 프로젝트</h1>
 <div align='center'>
   <h3>
