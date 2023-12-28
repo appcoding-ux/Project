@@ -37,7 +37,7 @@
   
 
 ## 👾 프로젝트 설계
-### ERD, UseCase
+### ERD, UseCase, PPT
 -ERD
   <img width="1249" alt="spring 프로젝트 ERD" src="https://github.com/appcoding-ux/Project/assets/112378228/9ed3124a-16b3-4b7a-bcb5-7cfd726142b0">
 -UseCase 다이어그램
@@ -49,6 +49,15 @@
  ![image](https://github.com/appcoding-ux/Project/assets/112378228/a7109a49-cd97-4d05-9064-db7a721fca4e)
  ![image](https://github.com/appcoding-ux/Project/assets/112378228/e6bab5fe-bac8-4f52-ad73-379e3c560fea)
  ![image](https://github.com/appcoding-ux/Project/assets/112378228/058f1143-336f-453b-8640-ff9af56802dd)
+
+ <details><summary>PPT</summary>     
+
+### 
+       
+<div align="center">
+
+</div>            
+</details>  
 
 
 
