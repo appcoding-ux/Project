@@ -41,13 +41,29 @@
 
 
 
-<details><summary>프로젝트 설계, 구현 PPT</summary>     
-  <div align="center">
-| **![1](https://github.com/appcoding-ux/Project/assets/112378228/20db7c9a-771a-43c9-a932-237707b67055)** | **![2](https://github.com/appcoding-ux/Project/assets/112378228/092f55ba-ad7f-4265-b409-ce3f1ad08fb6)** |
+<div align="center">          
 
+| **![1](https://github.com/NovTeamProject/Team_Project/assets/145524959/48aeac2a-f3ba-4cc4-92b7-3abfe5b2b07f)** | **![2](https://github.com/NovTeamProject/Team_Project/assets/145524959/99c3afa6-9296-4f72-8e71-aa9c18b49b46)** |
+| :------: |  :------: |
+|  ![3](https://github.com/NovTeamProject/Team_Project/assets/145524959/c5cca349-5b02-4beb-b3e5-0bec8168e3cf) | ![4](https://github.com/NovTeamProject/Team_Project/assets/145524959/51548346-94c7-42ab-879c-f54e58726b04) |
+| ![5](https://github.com/NovTeamProject/Team_Project/assets/145524959/fabfac83-ca73-45e9-af1a-cfd44ad06325) | ![6](https://github.com/NovTeamProject/Team_Project/assets/145524959/de6daaea-7c34-4d9c-9a01-a0d7c1aeab0a)  |
+|  ![7](https://github.com/NovTeamProject/Team_Project/assets/145524959/39a6c918-5a80-4e1c-a2e7-639d1063425b) |  ![8](https://github.com/NovTeamProject/Team_Project/assets/145524959/3f27d306-3381-4827-bcb9-1944f5243037)  |
+|  ![9](https://github.com/NovTeamProject/Team_Project/assets/145524959/9ec61b5c-94d3-491b-b0d0-70329a6684d8)  |  ![10](https://github.com/NovTeamProject/Team_Project/assets/145524959/34c87fb2-5b27-4b9b-8c93-cc0ec8f5c003) |  
+| ![11](https://github.com/NovTeamProject/Team_Project/assets/145524959/b038f427-4b26-4dc2-bfad-0f8dec993e39)  | ![12](https://github.com/NovTeamProject/Team_Project/assets/145524959/4cf2135c-5c42-4a97-8db6-9dfebd6031d1)  |
+| ![13](https://github.com/NovTeamProject/Team_Project/assets/145524959/87bed763-162a-4262-8e63-d72ba2b28134) |  ![14](https://github.com/NovTeamProject/Team_Project/assets/145524959/0eb4ca61-5108-4f14-afc1-0cafd04fb108)  |
+| ![15](https://github.com/NovTeamProject/Team_Project/assets/145524959/b8d941f0-2000-49e0-8689-5a6b6808ffd3) |  ![16](https://github.com/NovTeamProject/Team_Project/assets/145524959/0ba7ae6f-ff8e-41b4-81f7-3fea5ab57774)  |
+| ![17](https://github.com/NovTeamProject/Team_Project/assets/145524959/9b7c4f8e-73b3-4434-8ec7-cf39c3489e1c) |  ![18](https://github.com/NovTeamProject/Team_Project/assets/145524959/4dd7eebf-b04c-4c3b-9636-5bd820c1fdbf)  |
+| ![19](https://github.com/NovTeamProject/Team_Project/assets/145524959/5fc78ea9-fef1-41ca-9654-d0c4a936cf23) |  ![20](https://github.com/NovTeamProject/Team_Project/assets/145524959/986255d9-eb93-41a6-819d-77e1514057ee)  |
+| ![21](https://github.com/NovTeamProject/Team_Project/assets/145524959/ad06925b-9563-4dde-9eb6-e17ac648c4f2) |  ![22](https://github.com/NovTeamProject/Team_Project/assets/145524959/f83dc490-7abf-484f-a9b5-a7495089861f)  |
+| ![23](https://github.com/NovTeamProject/Team_Project/assets/145524959/f0f7fbdf-9a7b-4a61-9dd0-8a401ad89400)  | ![24](https://github.com/NovTeamProject/Team_Project/assets/145524959/1a1d22fe-17db-409e-aabb-3d3afec3199d)  |
+| ![25](https://github.com/NovTeamProject/Team_Project/assets/145524959/f5553253-112b-4f8a-a182-f9ced0b8cdc7) | ![26](https://github.com/NovTeamProject/Team_Project/assets/145524959/1938033e-0a16-4b1d-aff3-27e4bac7e262)  |
+| ![27](https://github.com/NovTeamProject/Team_Project/assets/145524959/4feb532e-1845-4d2c-b336-d95efc60d7e9) | ![28](https://github.com/NovTeamProject/Team_Project/assets/145524959/5d3ea8b6-391d-4e87-b222-76e453861e97)  |
+|  ![29](https://github.com/NovTeamProject/Team_Project/assets/145524959/bb4e118c-7c50-401c-85c1-3bcfdd91daed)  | ![30](https://github.com/NovTeamProject/Team_Project/assets/145524959/dfe02839-85d8-4b1d-b8cf-eb233de681cf)  |
+|  ![31](https://github.com/NovTeamProject/Team_Project/assets/145524959/aed8b835-592d-48b0-84f4-71d4008c52e7)  |  ![32](https://github.com/NovTeamProject/Team_Project/assets/145524959/51a3f0ce-5882-49e8-89c9-37616d797c18)  |
+|  ![33](https://github.com/NovTeamProject/Team_Project/assets/145524959/5e741260-768e-430c-ad68-0adc846b658a)  |  ![35](https://github.com/NovTeamProject/Team_Project/assets/145524959/972d51e1-51d0-48ed-bfb7-dc076e2c0acf)   |
 
 </div>            
-</details>  
+</details>         
 
 ## 💻 핵심 기능
 
