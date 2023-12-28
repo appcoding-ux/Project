@@ -40,15 +40,13 @@
 
 
 
-<details><summary>프로젝트 설계, 구현 PPT</summary>
+<details><summary>프로젝트 설계, 구현 PPT</summary>     
 <div align="center">
 | **![1](https://github.com/appcoding-ux/Project/assets/112378228/1e618213-1fce-4490-9f97-72313ccbef34)** | **![2](https://github.com/appcoding-ux/Project/assets/112378228/6be7606a-be34-49e6-81a2-67259bc76c2c)** |
 | :------: |  :------: |
 
 </div>            
 </details>  
-
-
 
 ## 💻 핵심 기능
 
