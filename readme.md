@@ -1,4 +1,4 @@
-![image](https://github.com/appcoding-ux/Project/assets/112378228/8fafe6b1-9dfa-4236-83c8-fc4b2bdbb163)<h1 align='center'> <img src='https://cdn-icons-png.flaticon.com/512/5208/5208370.png' style='width: 300px; height: 200px;'>&nbsp;</h1>
+<h1 align='center'> <img src='https://cdn-icons-png.flaticon.com/512/5208/5208370.png' style='width: 300px; height: 200px;'>&nbsp;</h1>
 <h1  align='center'>👕스프링 의류 쇼핑몰 프로젝트</h1>
 <div align='center'>
   <h3>
@@ -52,9 +52,9 @@
  ![image](https://github.com/appcoding-ux/Project/assets/112378228/058f1143-336f-453b-8640-ff9af56802dd)
 ### 
 <div align="center">
-| ** ![1](https://github.com/appcoding-ux/Project/assets/112378228/a450d808-5700-4a1f-872b-5423be04d977)** | **![2](https://github.com/appcoding-ux/Project/assets/112378228/f005037f-5d7f-420c-8baa-d8b8944dbf5c)** |
+| **![1](https://github.com/appcoding-ux/Project/assets/112378228/a450d808-5700-4a1f-872b-5423be04d977)** | **![2](https://github.com/appcoding-ux/Project/assets/112378228/f005037f-5d7f-420c-8baa-d8b8944dbf5c)** |
 | :------: |  :------: |
-|  ![3](https://github.com/appcoding-ux/Project/assets/112378228/1f536da0-eb50-4d91-afa1-b0253ef4266c) | ![4](https://github.com/appcoding-ux/Project/assets/112378228/39e689fd-b63f-40a6-a892-d1a82339f261) |
+| ![3](https://github.com/appcoding-ux/Project/assets/112378228/1f536da0-eb50-4d91-afa1-b0253ef4266c) | ![4](https://github.com/appcoding-ux/Project/assets/112378228/39e689fd-b63f-40a6-a892-d1a82339f261) |
 | ![5](https://github.com/appcoding-ux/Project/assets/112378228/3cc33e97-3e4b-4ede-9d2b-7803724c6f82) | ![6](https://github.com/appcoding-ux/Project/assets/112378228/6f5cfc2e-dc00-4f00-9544-dbee5d2c699f) |
 | ![7](https://github.com/appcoding-ux/Project/assets/112378228/d7a20b01-49bc-40ab-9d6d-6806cf1b1f07) | ![8](https://github.com/appcoding-ux/Project/assets/112378228/25adcbd2-8d6f-44cb-955a-c33dac89958b) |
 | ![9](https://github.com/appcoding-ux/Project/assets/112378228/1a877b8a-cdf3-4b45-b54e-cc485cc3e8c5) | ![10](https://github.com/appcoding-ux/Project/assets/112378228/0e96f778-cdf7-4ac4-a91d-d8c732c65c3d) |
@@ -81,6 +81,7 @@
 | ![51](https://github.com/appcoding-ux/Project/assets/112378228/9f50083d-4169-4be9-a741-3abdfef5fcee) | ![52](https://github.com/appcoding-ux/Project/assets/112378228/561ea6e1-28ee-4215-8ff7-635bd870f21b) |
 | ![53](https://github.com/appcoding-ux/Project/assets/112378228/f294bfc3-69c6-4460-b434-acdc600aa44f) | ![54](https://github.com/appcoding-ux/Project/assets/112378228/0ccee9ed-c118-4b66-b675-96b6f70e2699) |
 | ![55.](https://github.com/appcoding-ux/Project/assets/112378228/4d8816da-2d7e-44ee-a447-c37542437b2e) | ![56](https://github.com/appcoding-ux/Project/assets/112378228/d9795e16-5b21-4e41-b098-3311bbdc071d) |
+
 
 </div>            
 </details>  
