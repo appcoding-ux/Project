@@ -43,7 +43,7 @@
 <details><summary>프로젝트 설계, 구현, PPT</summary>   
 <div align="center">          
 
-| **![1]![image](https://github.com/appcoding-ux/Project/assets/112378228/d948b8b2-e66d-4d80-9fe9-d8c5caeb81f9)** | **![2]![image](https://github.com/appcoding-ux/Project/assets/112378228/6b84f01b-fce4-4c83-8076-240acc1395fd)** |
+| **![1](https://github.com/appcoding-ux/Project/assets/112378228/d948b8b2-e66d-4d80-9fe9-d8c5caeb81f9)** | **![2](https://github.com/appcoding-ux/Project/assets/112378228/6b84f01b-fce4-4c83-8076-240acc1395fd)** |
 | :------: |  :------: |
 |  ![3](https://github.com/NovTeamProject/Team_Project/assets/145524959/c5cca349-5b02-4beb-b3e5-0bec8168e3cf) | ![4](https://github.com/NovTeamProject/Team_Project/assets/145524959/51548346-94c7-42ab-879c-f54e58726b04) |
 | ![5](https://github.com/NovTeamProject/Team_Project/assets/145524959/fabfac83-ca73-45e9-af1a-cfd44ad06325) | ![6](https://github.com/NovTeamProject/Team_Project/assets/145524959/de6daaea-7c34-4d9c-9a01-a0d7c1aeab0a)  |
