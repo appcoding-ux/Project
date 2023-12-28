@@ -52,7 +52,7 @@
  ![image](https://github.com/appcoding-ux/Project/assets/112378228/058f1143-336f-453b-8640-ff9af56802dd)
 ### 
 <div align="center">
-|** ![1](https://github.com/appcoding-ux/Project/assets/112378228/a450d808-5700-4a1f-872b-5423be04d977)** | **![2](https://github.com/appcoding-ux/Project/assets/112378228/f005037f-5d7f-420c-8baa-d8b8944dbf5c)** |
+| ** ![1](https://github.com/appcoding-ux/Project/assets/112378228/a450d808-5700-4a1f-872b-5423be04d977)** | **![2](https://github.com/appcoding-ux/Project/assets/112378228/f005037f-5d7f-420c-8baa-d8b8944dbf5c)** |
 | :------: |  :------: |
 |  ![3](https://github.com/appcoding-ux/Project/assets/112378228/1f536da0-eb50-4d91-afa1-b0253ef4266c) | ![4](https://github.com/appcoding-ux/Project/assets/112378228/39e689fd-b63f-40a6-a892-d1a82339f261) |
 | ![5](https://github.com/appcoding-ux/Project/assets/112378228/3cc33e97-3e4b-4ede-9d2b-7803724c6f82) | ![6](https://github.com/appcoding-ux/Project/assets/112378228/6f5cfc2e-dc00-4f00-9544-dbee5d2c699f) |
