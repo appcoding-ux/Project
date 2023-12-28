@@ -1,4 +1,4 @@
-![image](https://github.com/appcoding-ux/Project/assets/112378228/2792c3fb-2148-4e7f-9afe-407172b3aa2c)<h1 align='center'> <img src='https://cdn-icons-png.flaticon.com/512/5208/5208370.png' style='width: 300px; height: 200px;'>&nbsp;</h1>
+<h1 align='center'> <img src='https://cdn-icons-png.flaticon.com/512/5208/5208370.png' style='width: 300px; height: 200px;'>&nbsp;</h1>
 <h1  align='center'>👕스프링 의류 쇼핑몰 프로젝트</h1>
 <div align='center'>
   <h3>
@@ -57,11 +57,11 @@
 | ![21](https://github.com/appcoding-ux/Project/assets/112378228/743eec56-7e7d-44e9-a033-f6d75eaf435d) | ![22](https://github.com/appcoding-ux/Project/assets/112378228/25f59ab5-e221-4a70-be9c-7622279fb315) |
 | ![23](https://github.com/appcoding-ux/Project/assets/112378228/8edb9187-5702-42d4-8b81-739ce664faa0) | ![24](https://github.com/appcoding-ux/Project/assets/112378228/e5bfc561-4b24-44a3-bc5b-e8d9c066b47f) |
 
-
 </div>            
-</details>         
+</details>
 
 ## 💻 핵심 기능
+
 
 
 #### 상품
