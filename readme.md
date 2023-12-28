@@ -40,10 +40,10 @@
 
 
 
+
 <details><summary>프로젝트 설계, 구현 PPT</summary>     
-<div align="center">
-![image](https://github.com/appcoding-ux/Project/assets/112378228/d5f1108c-7e83-4b53-909a-c86a345106ff)
-![image](https://github.com/appcoding-ux/Project/assets/112378228/4ec326ad-f0b6-4db0-8b85-8b205d4864f8)
+  <div align="center">
+왜 이미지가 안나올까?
 
 
 </div>            
