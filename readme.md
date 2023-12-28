@@ -40,7 +40,7 @@
 
 
 
-
+<details><summary>프로젝트 설계, 구현, PPT</summary>   
 <div align="center">          
 
 | **![1](https://github.com/NovTeamProject/Team_Project/assets/145524959/48aeac2a-f3ba-4cc4-92b7-3abfe5b2b07f)** | **![2](https://github.com/NovTeamProject/Team_Project/assets/145524959/99c3afa6-9296-4f72-8e71-aa9c18b49b46)** |
