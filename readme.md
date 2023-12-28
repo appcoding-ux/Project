@@ -43,7 +43,7 @@
 
 <details><summary>프로젝트 설계, 구현 PPT</summary>     
   <div align="center">
-| ![image](https://github.com/appcoding-ux/Project/assets/112378228/20db7c9a-771a-43c9-a932-237707b67055) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/092f55ba-ad7f-4265-b409-ce3f1ad08fb6) |
+| **![1](https://github.com/appcoding-ux/Project/assets/112378228/20db7c9a-771a-43c9-a932-237707b67055)** | **![2](https://github.com/appcoding-ux/Project/assets/112378228/092f55ba-ad7f-4265-b409-ce3f1ad08fb6)** |
 
 
 </div>            
