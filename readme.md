@@ -133,6 +133,7 @@
 
 * **메인 화면**
   * `카테고리` 메뉴를 사용해 카테고리 별로 상품을 확인할 수 있습니다.
+    
     ![ezgif com-video-to-gif-converter](https://github.com/appcoding-ux/Project/assets/112378228/92a2e152-b778-4e07-be48-1a8fc74f8bc4)
 
   
