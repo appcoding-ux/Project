@@ -134,15 +134,19 @@
 * **메인 화면**
   * `카테고리` 메뉴를 사용해 카테고리 별로 상품을 확인할 수 있습니다.
     
-    ![ezgif com-video-to-gif-converter](https://github.com/appcoding-ux/Project/assets/112378228/92a2e152-b778-4e07-be48-1a8fc74f8bc4)
+    ![main_1](https://github.com/appcoding-ux/Project/assets/112378228/577e931c-6302-442b-bb17-8071c7345a27)
+    ![main_2](https://github.com/appcoding-ux/Project/assets/112378228/8b6ebb9f-afd1-4e59-b3ff-22fcbf158ec7)
 
-  
+
 * **회원가입 및 로그인**
   * 회원가입시 프론트+서버 검증으로 `잘못 입력된 부분과 그 값`을 다시 보여줍니다.
   
   * `다음 우편주소API`를 이용해 배송을 위한 정확한 주소를 가져올 수 있습니다.
 
-   ![ezgif com-video-to-gif-converter (1)](https://github.com/appcoding-ux/Project/assets/112378228/81faa693-265a-491a-a9e6-5a958c6fabad)
+   ![join login_1](https://github.com/appcoding-ux/Project/assets/112378228/e5f95aca-36d0-4498-a044-588310aebf7d)
+   ![join login_2](https://github.com/appcoding-ux/Project/assets/112378228/1d06d376-429b-4889-8d99-5c432d901394)
+   ![join login_3](https://github.com/appcoding-ux/Project/assets/112378228/2b064e24-d5c6-42ea-82e7-bde3b9ff7cf1)
+   ![join login_4](https://github.com/appcoding-ux/Project/assets/112378228/141f9dec-7f96-43f5-a184-52144eba16ce)
 
 
 * **상품 상세 조회 및 좋아요**
