@@ -56,6 +56,26 @@
 | ![19](https://github.com/appcoding-ux/Project/assets/112378228/e746a705-a5fe-4950-99f6-bf0af7df28ba) | ![20](https://github.com/appcoding-ux/Project/assets/112378228/bd45ee6e-c378-4680-b6f0-05c6db531b1f) |
 | ![21](https://github.com/appcoding-ux/Project/assets/112378228/743eec56-7e7d-44e9-a033-f6d75eaf435d) | ![22](https://github.com/appcoding-ux/Project/assets/112378228/25f59ab5-e221-4a70-be9c-7622279fb315) |
 | ![23](https://github.com/appcoding-ux/Project/assets/112378228/8edb9187-5702-42d4-8b81-739ce664faa0) | ![24](https://github.com/appcoding-ux/Project/assets/112378228/e5bfc561-4b24-44a3-bc5b-e8d9c066b47f) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/560f7b77-19c4-4861-8254-4fc0d67f6698) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/1aeebb6c-338a-4bd3-9f71-1d4e793bd142) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/9ab8654e-9566-44e8-ad15-31810ab6f362) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/59de9da6-55e1-4129-8e64-8341edf114d3) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/37a33bea-0a98-4fe0-85ed-024358d1bfb4) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/73f1fdba-ca5d-4a87-9461-e4b274ff5557) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/4013f546-9f63-42c3-8346-3d0579f2b6dc) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/7c507c2c-1d4e-4567-a880-c0b890d0a15a) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/2df400a4-3161-42ff-ac66-7dfad441eae4) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/9dd66410-512b-4e80-9135-b8b0073d0066) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/ab986a9d-607b-41eb-bb0f-cf4d1828d1b4) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/6dac5183-b297-4d8a-9b57-225cbf96cd37) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/e782d810-2562-4609-8b15-444130e1a488) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/87a5c55f-7894-4b0e-868e-56f4a3fdda66) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/35517a49-8ff4-42d0-902c-7cca1c8f1ed4) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/251c08f2-308a-47ae-b2d0-c9a2dda6f250) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/2cb6b041-a0dd-4aa7-9356-8026c0d29554) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/a42d11ee-e868-4359-81d6-78f5c4d2c243) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/c9b2ffec-fb96-4c9d-beb7-dad8edd90f92) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/f6ea8b6e-8486-4f30-9a1d-2e102362dc2f) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/fdd53250-a80f-468e-842d-22c71639b353) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/36f68095-9097-4aa8-b802-25184b9a710e) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/dbb8b27a-47cf-4652-b375-2f5c5090023e) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/0bfc92b9-0e2a-4571-9fd3-fc90b4ba0f20) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/5698241c-5270-4c35-89f8-d702b41be2c4) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/5d331a0c-6e23-400c-ad62-e9d82e0665c2) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/af5cbb30-33fd-4b53-975a-ae3d806a54cc) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/4cb1940b-64c8-4944-ad7e-86c084169d5c) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/0f536ba2-5347-4eef-beb8-82656fa28202) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/ec251ec6-9c9d-4efd-9a61-7fdd90840ae3) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/c1b7692c-599c-4258-91f9-d920dd5005dc) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/90dbcdb2-d739-485a-b11f-24abec677b7f) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/a0d44b7d-98c3-4d18-ae30-52213a9d088d) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/087c759e-737c-4459-95f6-20342733c227) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/1d10cb0f-fdc4-4a66-9341-95572c4912eb) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/1ba42946-97b0-40d8-8d5c-73081c871468) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/da3c8999-3579-412b-b504-5dfcffea390b) | ![image](https://github.com/appcoding-ux/Project/assets/112378228/6a7f1184-fef8-4cab-a820-5c14e1583e9e) |
+| ![image](https://github.com/appcoding-ux/Project/assets/112378228/ef27dd70-4259-4915-bad9-9e1474f2fa1b) |
 
 </div>            
 </details>
