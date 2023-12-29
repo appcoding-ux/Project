@@ -133,22 +133,16 @@
 
 * **메인 화면**
   * `카테고리` 메뉴를 사용해 카테고리 별로 상품을 확인할 수 있습니다.
-    
-    ![main_1](https://github.com/appcoding-ux/Project/assets/112378228/577e931c-6302-442b-bb17-8071c7345a27)
-    ![main_2](https://github.com/appcoding-ux/Project/assets/112378228/8b6ebb9f-afd1-4e59-b3ff-22fcbf158ec7)
 
+    ![main](https://github.com/appcoding-ux/Project/assets/112378228/ae886faf-153a-48de-ab2e-72c77f7f4b99)
 
 * **회원가입 및 로그인**
   * 회원가입시 프론트+서버 검증으로 `잘못 입력된 부분과 그 값`을 다시 보여줍니다.
   
   * `다음 우편주소API`를 이용해 배송을 위한 정확한 주소를 가져올 수 있습니다.
 
-   ![join login_1](https://github.com/appcoding-ux/Project/assets/112378228/e5f95aca-36d0-4498-a044-588310aebf7d)
-   ![join login_2](https://github.com/appcoding-ux/Project/assets/112378228/1d06d376-429b-4889-8d99-5c432d901394)
-   ![join login_3](https://github.com/appcoding-ux/Project/assets/112378228/2b064e24-d5c6-42ea-82e7-bde3b9ff7cf1)
-   ![join login_4](https://github.com/appcoding-ux/Project/assets/112378228/141f9dec-7f96-43f5-a184-52144eba16ce)
-
-
+   ![join login](https://github.com/appcoding-ux/Project/assets/112378228/fed4e75a-e8a9-4a16-863b-8a106723261d)
+  
 * **상품 상세 조회 및 좋아요**
   * 상품 목록에서 상품의 사진을 클릭하면 `상품 상세 정보` 를 확인할 수 있습니다.
   * `상품 상세` 페이지에서 좋아요(추천)을 할 수 있습니다.
@@ -170,18 +164,14 @@
 
   * `제품관리` 메뉴에서 상품을 등록하거나 재고 및 이미지등을, 수정, 삭제 할 수 있습니다.
 
-  ![admin_item_1](https://github.com/appcoding-ux/Project/assets/112378228/fad14bbe-6d5b-4efc-849c-45042195406b)
-  ![admin_item_2](https://github.com/appcoding-ux/Project/assets/112378228/549418bb-8df7-45b6-b030-d448f7e90d80)
-  ![admin_item_3](https://github.com/appcoding-ux/Project/assets/112378228/e6f4d9f4-ba26-4d84-b2a1-eac46c29af22)
-
-
+  ![admin_item](https://github.com/appcoding-ux/Project/assets/112378228/a0565e40-189a-4e3f-b8df-0a6f3693182d)
   * `고객관리` 메뉴에서 비정상적인 고객을 비활성화 처리할 수 있습니다.
   
 
   * `공지사항` 메뉴에서 공지사항 등록, 수정, 삭제 할 수 있습니다.
 
  
-  * `통계` 메뉴에서 나이대에 맞게 통계를 확인할 수 있습니다.
+  * `통계` 메뉴에서 나이대를 비교해 도충한 통계를 확인할 수 있습니다.
     
  
   * `문의답변` 메뉴에서 현재 답변하지 않은 문의들을 답변할 수 있습니다.
