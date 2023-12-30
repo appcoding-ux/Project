@@ -178,7 +178,9 @@
 * **Q&A**
   * `Q&A` 메뉴에서 회원은 문의를 등록힐 수 있습니다.
   * 만약 더 궁금한 점이 있을 때 `재문의`를 할 수 있습니다. (단, 관리자가 답변을 했을 경우에만 가능합니다.)
-  
+
+  ![q a_1](https://github.com/appcoding-ux/Project/assets/112378228/63f60bef-58dc-4fa6-aeb1-d1a0f916c388)
+  ![q a_2](https://github.com/appcoding-ux/Project/assets/112378228/2baf9734-8162-4032-b167-394fb5c60cf0)\
 </details>
 
 
