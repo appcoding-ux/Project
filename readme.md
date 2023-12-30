@@ -162,19 +162,19 @@
 
   * `제품관리` 메뉴에서 상품을 등록하거나 재고 및 이미지등을, 수정, 삭제 할 수 있습니다.
 
-    ![admin_item](https://github.com/appcoding-ux/Project/assets/112378228/c03e261c-fed3-4dde-99e6-ebe9f6773b26)
+![admin_item](https://github.com/appcoding-ux/Project/assets/112378228/c03e261c-fed3-4dde-99e6-ebe9f6773b26)
   * `고객관리` 메뉴에서 비정상적인 고객을 비활성화 처리할 수 있습니다.
   
-    ![admin_member](https://github.com/appcoding-ux/Project/assets/112378228/8f376311-5be2-4959-806c-61e1ec8b99fb)
+![admin_member](https://github.com/appcoding-ux/Project/assets/112378228/8f376311-5be2-4959-806c-61e1ec8b99fb)
   * `공지사항` 메뉴에서 공지사항 등록, 수정, 삭제 할 수 있습니다.
 
-    ![admin_notice](https://github.com/appcoding-ux/Project/assets/112378228/10c8e930-d117-4065-acbc-742d15d93788)
+![admin_notice](https://github.com/appcoding-ux/Project/assets/112378228/10c8e930-d117-4065-acbc-742d15d93788)
   * `통계` 메뉴에서 나이대를 비교해 도충한 통계를 확인할 수 있습니다.
     
-    ![admin_statistics](https://github.com/appcoding-ux/Project/assets/112378228/a021a180-36fe-487a-95d6-e65118019db9)
+![admin_statistics](https://github.com/appcoding-ux/Project/assets/112378228/a021a180-36fe-487a-95d6-e65118019db9)
   * `문의답변` 메뉴에서 현재 답변하지 않은 문의들을 답변할 수 있습니다.
 
-    ![admin_enswer](https://github.com/appcoding-ux/Project/assets/112378228/62fd7344-4834-4d67-a8f4-d904d43eb007)
+![admin_enswer](https://github.com/appcoding-ux/Project/assets/112378228/62fd7344-4834-4d67-a8f4-d904d43eb007)
 * **Q&A**
   * `Q&A` 메뉴에서 회원은 문의를 등록힐 수 있습니다.
   * 만약 더 궁금한 점이 있을 때 `재문의`를 할 수 있습니다. (단, 관리자가 답변을 했을 경우에만 가능합니다.)
