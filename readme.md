@@ -134,13 +134,13 @@
 * **메인 화면**
   * `카테고리` 메뉴를 사용해 카테고리 별로 상품을 확인할 수 있습니다.
     
-    ![main](https://github.com/appcoding-ux/Project/assets/112378228/d58f1e27-f951-47c2-813d-0e931f1a2cfa)
+    
 * **회원가입 및 로그인**
   * 회원가입시 프론트+서버 검증으로 `잘못 입력된 부분과 그 값`을 다시 보여줍니다.
   
   * `다음 우편주소API`를 이용해 배송을 위한 정확한 주소를 가져올 수 있습니다.
   
-    ![join login](https://github.com/appcoding-ux/Project/assets/112378228/c8c4a9d3-0a58-49ff-a983-486d4081a8ac)
+    
 * **상품 상세 조회 및 좋아요**
   * 상품 목록에서 상품의 사진을 클릭하면 `상품 상세 정보` 를 확인할 수 있습니다.
   * `상품 상세` 페이지에서 좋아요(추천)을 할 수 있습니다.
@@ -162,23 +162,23 @@
 
   * `제품관리` 메뉴에서 상품을 등록하거나 재고 및 이미지등을, 수정, 삭제 할 수 있습니다.
 
-    ![admin_item](https://github.com/appcoding-ux/Project/assets/112378228/c4170964-4641-4045-803e-72cb66981918)
+    
   * `고객관리` 메뉴에서 비정상적인 고객을 비활성화 처리할 수 있습니다.
   
-    ![admin_member](https://github.com/appcoding-ux/Project/assets/112378228/e2d5fc24-edb8-4aec-baed-6617786e977a)
+    
   * `공지사항` 메뉴에서 공지사항 등록, 수정, 삭제 할 수 있습니다.
 
-    ![admin_notice](https://github.com/appcoding-ux/Project/assets/112378228/bbd5e931-6b36-4070-8d00-b42caed91c42)
+    
   * `통계` 메뉴에서 나이대를 비교해 도충한 통계를 확인할 수 있습니다.
     
-    ![admin_statistics](https://github.com/appcoding-ux/Project/assets/112378228/0d742c45-3278-4b35-b05c-9dbd4289926b)
+    
   * `문의답변` 메뉴에서 현재 답변하지 않은 문의들을 답변할 수 있습니다.
 
-    ![admin_enswer](https://github.com/appcoding-ux/Project/assets/112378228/43dbea21-bed0-4a5d-a2ed-3a4202e17ae6)
+    
 * **Q&A**
   * `Q&A` 메뉴에서 회원은 문의를 등록힐 수 있습니다.
   * 만약 더 궁금한 점이 있을 때 `재문의`를 할 수 있습니다. (단, 관리자가 답변을 했을 경우에만 가능합니다.)
-  ![Q A](https://github.com/appcoding-ux/Project/assets/112378228/0d25b8ff-e221-4856-9aaf-42c51235ac52)
+  
 </details>
 
 
