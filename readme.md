@@ -134,7 +134,7 @@
 * **메인 화면**
   * `카테고리` 메뉴를 사용해 카테고리 별로 상품을 확인할 수 있습니다.
     
-  ![main](https://github.com/appcoding-ux/Project/assets/112378228/d58f1e27-f951-47c2-813d-0e931f1a2cfa)
+    ![main](https://github.com/appcoding-ux/Project/assets/112378228/d58f1e27-f951-47c2-813d-0e931f1a2cfa)
 * **회원가입 및 로그인**
   * 회원가입시 프론트+서버 검증으로 `잘못 입력된 부분과 그 값`을 다시 보여줍니다.
   
